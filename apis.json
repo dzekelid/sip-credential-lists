@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - SIP Credential Lists",
+	"description": "This is a repository of sip credential lists APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/sip-credential-lists.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://sip-credential-lists.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "SIP Credential Lists",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sip-credential-lists/master/_listings/twilio/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "SIP Credential Lists",
+	"include": [
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/sip-credential-lists/master/_listings/twilio/apis.yaml"
+		}
+	]
+}
